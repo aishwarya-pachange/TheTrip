@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--*************** ASSIGNMENT# - HW 08****************
+*******************FILE NAME - HomePage.xml ************************
+****************** FULL NAME - Aishwarya Nandkumar Pachange & Janani Krishnan (Group 18) *************** -->
+<!--
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+</android.support.constraint.ConstraintLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:orientation="vertical">
+
+  <!--  <TextView
+        android:id="@+id/txtHeading"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="@color/colorPrimary"
+        android:text="     TRIP PLANNER"
+        android:textAlignment="textStart"
+        android:paddingTop="3dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>-->
+      <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/tripplanner"
+          android:background="@color/colortab"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabTextColor="#ffffff"
+        android:id="@+id/tripTabs">
+    </android.support.design.widget.TabLayout>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ViewPagerTabs"></android.support.v4.view.ViewPager>
+</LinearLayout>
+
+

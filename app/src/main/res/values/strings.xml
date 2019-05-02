@@ -1,0 +1,11 @@
+
+<!--*************** ASSIGNMENT# - HW 08****************
+*******************FILE NAME - strings.xml ************************
+****************** FULL NAME - Aishwarya Nandkumar Pachange & Janani Krishnan (Group 18) *************** -->
+<resources>
+    <string name="app_name">Trip Planner</string>
+    <string name="loginbtn">Login</string>
+    <string name="signupbtn">Sign Up</string>
+    <string name="apijey">AIzaSyDTOiEgE7Z2QfZ97stt11zHc_v-DMDg-bc</string>
+    <string name="title_activity_show_maps">Map</string>
+</resources>
